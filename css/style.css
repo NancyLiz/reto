@@ -1,0 +1,141 @@
+html{
+    background-color: #000;
+    color: #fff;
+    min-height: 100vh;
+    width:auto;
+}
+.fondo{
+    margin-top:3.2em;
+    position:relative;
+
+}
+.imagen{
+    height:548px;
+    width: 808px;
+    position:relative;
+}
+
+.uno {
+    position:absolute;
+    background-color:#000;
+    border: 1.5px solid #3D3D3D;
+    margin-left:24%;
+    margin-top:1.8em;
+    z-index:1;
+    height:483px;
+    width:690px;
+}
+
+
+.dos{
+    font-family: Arial, Helvetica, sans-serif;
+    height:1px;
+    width:48px;
+    position:relative;
+    margin-left:55%;
+    line-height:.4em;
+    font-size: 11px;
+    text-align:left;
+}
+.uno .tres{
+    height:200px;
+    width:260px;
+    text-align:left;
+    font-size:24px;
+    font-weight:bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:-5%;
+
+}
+
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color:#fff;
+    text-align:left;
+    padding: .5em 0 0 2.2em;
+    font-weight:bolder;
+}
+
+.subtl{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size:15px;
+    color:#fff;
+    margin-top:8%;
+    line-height:1rem;
+}
+
+#piedra{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #FF4D4D;
+    color:#fff;
+    font-weight: 500;
+    font-size:16px;
+    padding:5px 25px 5px 25px;
+    text-decoration:none;
+    border: 1px solid #FF4D4D;
+    border-radius: 2px;
+    outline:none;
+    cursor:pointer;
+}
+#papel{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #279EBE;
+    color:#fff;
+    font-weight: 500;
+    font-size:16px;
+    padding:5px 25px 5px 25px;
+    text-decoration:none;
+    border: 1px solid #279EBE;
+    border-radius: 2px;
+    outline:none;
+    cursor: pointer;
+}
+#tijera{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #64D88B;
+    color:#fff;
+    font-weight: 500;
+    font-size:16px;
+    padding:5px 25px 5px 25px;
+    text-decoration:none;
+    border: 1px solid #64D88B;
+    border-radius: 2px;
+    outline:none;
+    cursor: pointer;
+}
+#opcion, #pc{
+    display: inline-block;
+}
+.gana{
+
+    display:inline-block;
+    padding-top:0;
+    font-size:11px;
+    font-weight:normal;
+}
+.esp{
+    line-height: 0em;
+}
+.esp1{
+    line-height:2.5rem;
+}
+.esp2{
+    line-height:.6rem;
+    color:#D95CFF;
+}
+.azul{
+    color: #279EBE;
+}
+.rojo{
+    color:#FF4D4D;
+}
+.verde{
+    color: #64D88B;
+}
+
+
+
+
+
+
